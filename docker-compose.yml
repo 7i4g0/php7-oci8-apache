@@ -1,0 +1,10 @@
+web:
+  container_name: dev5
+  build: .
+  ports:
+    - "80:80"
+  volumes:
+    - ../:/var/www/html/
+    - ./conf/apache:/etc/apache2/sites-enabled/
+    - ./conf/php:/usr/local/etc/php/
+
