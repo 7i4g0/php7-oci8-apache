@@ -6,10 +6,16 @@ It contains PHP 7, Apache 2, Oracle's OCI8 extension.
 
 You can use it to connect your docker instance with Oracle DB.
 
-To use this image, docker-compose is prefered:
+To use this image, docker-compose is prefered.
+
+Install [Docker-compose](https://docs.docker.com/compose/install/)
 
 ```
 docker-compose up
+```
+or just
+```
+make
 ```
 
 Then go to 
