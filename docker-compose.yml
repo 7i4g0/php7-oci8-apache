@@ -4,7 +4,7 @@ web:
   ports:
     - "80:80"
   volumes:
-    - ../:/var/www/html/
+    - ../www:/var/www/html/
     - ./conf/apache:/etc/apache2/sites-enabled/
     - ./conf/php:/usr/local/etc/php/
 
